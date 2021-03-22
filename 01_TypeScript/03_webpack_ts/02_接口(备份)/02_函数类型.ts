@@ -14,6 +14,7 @@
         //在source这个字符串中查找subString这个字符串
         return source.search(subString) > -1;
     }
+
     //调用函数
     console.log(searchString('hello', 'h'))
 })()
