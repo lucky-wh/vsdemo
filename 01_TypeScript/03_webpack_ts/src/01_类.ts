@@ -17,7 +17,7 @@
 
         //定义实例方法
         sayHi(str: string) {
-            console.log('我是类中的实例方法 名字是=${this.name} 年龄是=${this.age} 性别为=${this.gender}' + str)
+            console.log('我是类中的实例方法 名字是=${this.name} 年龄是=${this.age} 性别为=${this.gender}', str)
         }
     }
     //实例化对象
